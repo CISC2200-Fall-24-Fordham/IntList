@@ -1,35 +1,35 @@
-# CS2 Review
+# IntList
 
-This is an in-class programming exercise aimed at refreshing you on CS2 concepts,
-as well as getting you more familiar with your development environment.
+This code accompanies the slides about IntList. This is here for reference /
+to aid you following in class.
 
 ## Programming Environment Setup
 
-We will set up programming environment our our own computer, by following [Setup Tutorial](https://eecs280staff.github.io/tutorials/).
+You can either program in a GitHub codespace, or program on your local machine.
 
-- The _Commannd Line Tools_ are required.
+### Local Machine
 
-- The _C++ Dev Environment_ (VSCode) is highly recommened.
+You can set up programming environment our our own computer, by following the
+[Setup Tutorial](https://eecs280staff.github.io/tutorials/).
+
+* The _Command Line Tools_ are required.
+* The _C++ Dev Environment_ (VSCode) is highly recommened.
 
 **Please follow these tutorials closely and carefully.**
 
-### Devconatiner Setup
+### Devcontainer Setup / Using containers
 
 Alternatively, either:
 
-- Follow the [VSCode Devcontainer Setup Guide](https://code.visualstudio.com/docs/devcontainers/containers) and run using Docker locally
-- Launch this repo in a GitHub Codespace, and copy your file into the auto grader...
+* Follow the [VSCode Devcontainer Setup Guide](https://code.visualstudio.com/docs/devcontainers/containers)
+and run using Docker locally
+* Launch this repo in a GitHub Codespace, and copy your file into the auto grader...
 
-## Programming Requirement
+## Downloading the code
 
-A code skeleton is given for this. From your terminal (mac or WSL/Ubunto) window, you can use the following command to download it:
+From your terminal (mac or WSL/Ubunto) window, you can use the following command
+to download it:
 
 ```bash
-git clone https://github.com/CISC2200-Fall-24-Fordham/CS2-Review.git
+git clone https://github.com/CISC2200-Fall-24-Fordham/IntList.git
 ```
-
-Consult the `TODO` sections for what you need to implement.
-
-## Submission
-
-This serves as a CS2 review section, and is not due for submission.
