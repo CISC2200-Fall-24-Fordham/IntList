@@ -1,11 +1,8 @@
 class IntList {
-
-  private:
+  public:
     int first;
     IntList *rest;
-
-  public:
-    IntList(int f, IntList *r) {
+    IntList(int f, IntList *r = nullptr) {
       first = f;
       rest = r;
     }
@@ -28,6 +25,21 @@ class IntList {
     }
 
     /**
+    * @brief Returns the number of items in the list iteratively
+    *
+    * @return int count for the list
+    */
+    int iterativeSize() {
+      int count = 0;
+      IntList *current = this;
+      while (current != nullptr) {
+        count++;
+        current = current->rest;
+      }
+      return count;
+    }
+
+    /**
     * @brief Retrieve the i-th element (i.e., int) in the list
     *
     * @param i index of element
@@ -38,4 +50,34 @@ class IntList {
         return first;
       return rest->get(i - 1);
     }
+
+    /**
+    * @brief Retrieve the i-th element (i.e., int) in the list iteratively
+    * @param i index of element
+    * @return int& the reference to the first element
+    */
+    int &iterativeGet(int i) {
+      // TODO
+    }
+
 };
+
+/**
+* @brief Increase all elements in the list by a given value
+* @param n the value to increase
+* @return IntList* the new list
+*/
+IntList *incrList(const IntList *L, int n) {
+  // TODO
+}
+
+/**
+* @brief Increase all elements in the list by a given value
+* @param n the value to increase
+* @return IntList* the new list
+* @post the original list is also changed
+*/
+IntList *dincrList(IntList *L, int n) {
+  // TODO
+}
+

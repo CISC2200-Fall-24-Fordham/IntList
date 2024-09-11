@@ -3,6 +3,12 @@
 This code accompanies the slides about IntList. This is here for reference /
 to aid you following in class.
 
+Complete the TODOs:
+
+* Implement iterativeGet
+* Implement incrList
+* Implement dincrList
+
 ## Programming Environment Setup
 
 You can either program in a GitHub codespace, or program on your local machine.
